@@ -1,6 +1,6 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { HydratedDocument } from 'mongoose';
-import { hashPassword } from 'src/common/password';
+import { hashPassword } from 'src/common/utils/password';
 
 export type UserDocument = HydratedDocument<User>;
 

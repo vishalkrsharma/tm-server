@@ -11,7 +11,7 @@ Object.defineProperty(exports, "UsersMiddleware", {
 const _common = require("@nestjs/common");
 const _mongoose = require("@nestjs/mongoose");
 const _mongoose1 = require("mongoose");
-const _password = require("../../common/password");
+const _password = require("../../common/utils/password");
 const _userschema = require("../../schemas/user.schema");
 function _ts_decorate(decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;

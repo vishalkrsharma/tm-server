@@ -1,7 +1,7 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 
-import { comparePassword } from 'src/common/password';
+import { comparePassword } from 'src/common/utils/password';
 import { SigninDto } from 'src/modules/auth/dto/signin-dto';
 import { SignupDto } from 'src/modules/auth/dto/signup-dto';
 import { UsersService } from 'src/modules/users/users.service';

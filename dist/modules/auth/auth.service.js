@@ -10,7 +10,7 @@ Object.defineProperty(exports, "AuthService", {
 });
 const _common = require("@nestjs/common");
 const _jwt = require("@nestjs/jwt");
-const _password = require("../../common/password");
+const _password = require("../../common/utils/password");
 const _usersservice = require("../users/users.service");
 function _ts_decorate(decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
